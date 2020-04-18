@@ -26,3 +26,23 @@
     top: 1px;
   }
 }
+
+#myBtn {
+  display: none; 
+  position: fixed; 
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none;
+  outline: none; 
+  background-color: #a131ae;
+  color: #fff !important;
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 3px; 
+  font-size: 18px; 
+}
+
+#myBtn:hover {
+  background-color: #a131ae;
+}

@@ -175,14 +175,14 @@ pre, code, .hljs {
     z-index: 99; 
     border: none;
     outline: none; 
-    background-color: $copy-button-default;
-    color: $simple-white !important;
+    background-color: #333333;
+    color: #fff !important;
     cursor: pointer; 
     padding: 15px; 
     border-radius: 3px; 
     font-size: 18px; 
-
-    &:hover {
-        background-color: $link_hover;
-    }
-  }
+}
+  
+#myBtn:hover {
+    background-color: #333333;
+}
